@@ -1,5 +1,5 @@
 import React from "react";
-import { TmyFunction } from "./types/Types";
+import { TmyFunction } from "../types/Types";
 
 const ChildFile = (props: TmyFunction) => {
   const childData = "Hello from ChildFile";

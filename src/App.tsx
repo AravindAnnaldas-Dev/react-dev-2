@@ -1,10 +1,15 @@
 import "./App.css";
-import ParentFile from "./ParentFile";
+import ParentFile from "./ParentToChildProps/ParentFile";
+import ComponentsFolder from "./StateLifting/ComponentsFolder";
 
 function App() {
   return (
     <>
-      <ParentFile />
+      {/* Sending props from child to parent component */}
+      {/* <ParentFile /> */}
+
+      {/* State lifting */}
+      <ComponentsFolder />
     </>
   );
 }
