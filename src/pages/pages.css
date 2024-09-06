@@ -1,0 +1,92 @@
+.calc_section {
+  width: 100%;
+  padding-block: 80px;
+  user-select: none;
+}
+
+.calc_container {
+  width: 100%;
+  height: 100%;
+  max-width: 1220px;
+  padding-inline: 16px;
+  margin: auto;
+}
+
+.calc_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+}
+
+.calc_heading {
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.calc_result {
+  font-size: 24px;
+}
+
+.calc_input_field {
+  outline: none;
+  width: 100%;
+  max-width: 300px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  padding-left: 6px;
+}
+
+.calc_buttons_ctn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.calc_btn {
+  border: none;
+  padding: 8px 20px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #ffffff;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.calc_btn:active {
+  opacity: 0.8;
+}
+
+.calc_btn.clr_green {
+  background: lightgreen;
+}
+
+.calc_btn.clr_red {
+  background: red;
+  color: #ffffff;
+}
+
+.calc_btn.clr_blue {
+  background: blue;
+  color: #ffffff;
+}
+
+.calc_btn.clr_pink {
+  background: pink;
+}
+
+.calc_btn.clr_orange {
+  background: orange;
+}
+
+.calc_btn.clr_orange {
+  background: orange;
+}

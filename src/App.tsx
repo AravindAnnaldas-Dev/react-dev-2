@@ -1,25 +1,31 @@
 import "./App.css";
-// import ParentFile from "./ParentToChildProps/ParentFile";
-// import ComponentsFolder from "./StateLifting/ComponentsFolder";
+import AppRoutesFile from "./AppRoutes/AppRoutesFile";
+import ParentFile from "./ParentToChildProps/ParentFile";
+import ComponentsFolder from "./StateLifting/ComponentsFolder";
 import ContextHook, { CreatingProvide } from "./context/Context";
 import UsingContextFile from "./context/UsingContextFile";
+import Home from "./pages/Home";
 
 function App() {
   // useContext
   const { themeMode } = ContextHook();
 
   return (
-    // <>
-    //   {/* Sending props from child to parent component */}
-    //   {/* <ParentFile /> */}
+    // <CreatingProvide value={{ themeMode }}>
+    //   {/* useContext */}
+    //   <UsingContextFile themeMode={themeMode} />
+    // </CreatingProvide>
 
-    //   {/* State lifting */}
-    //   {/* <ComponentsFolder /> */}
-    // </>
-    <CreatingProvide value={{ themeMode }}>
-      {/* useContext */}
-      <UsingContextFile themeMode={themeMode} />
-    </CreatingProvide>
+    <>
+      {/* Sending props from child to parent component */}
+      {/* <ParentFile /> */}
+
+      {/* State lifting */}
+      {/* <ComponentsFolder /> */}
+
+      {/* Routing */}
+      <AppRoutesFile />
+    </>
   );
 }
 
