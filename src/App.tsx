@@ -1,10 +1,20 @@
-import "./App.css";
-import AppRoutesFile from "./AppRoutes/AppRoutesFile";
-import ParentFile from "./ParentToChildProps/ParentFile";
-import ComponentsFolder from "./StateLifting/ComponentsFolder";
-import ContextHook, { CreatingProvide } from "./context/Context";
-import UsingContextFile from "./context/UsingContextFile";
-import Home from "./pages/Home";
+import './App.css';
+import AppRoutesFile from './AppRoutes/AppRoutesFile';
+import ParentFile from './ParentToChildProps/ParentFile';
+import ComponentsFolder from './StateLifting/ComponentsFolder';
+import ContextHook, { CreatingProvide } from './context/Context';
+import UsingContextFile from './context/UsingContextFile';
+import Home from './pages/Home';
+import CleaningUpFunctions from './reactPractice/CleaningUpFunctions';
+import Conditonal from './reactPractice/Conditonal';
+import CustomHooks from './reactPractice/CustomHooks';
+import DataFetching from './reactPractice/DataFetching';
+import FormWithSingleState from './reactPractice/FormWithSingleState';
+import LoadingData from './reactPractice/LoadingData';
+import MountingAndUnmounting from './reactPractice/MountingAndUnmounting';
+import PrimitiveAndNonPrimitive from './reactPractice/PrimitiveAndNonPrimitive';
+import SetState from './reactPractice/SetState';
+import UpdatingObjectState from './reactPractice/UpdatingObjectState';
 
 function App() {
   // useContext
@@ -24,7 +34,19 @@ function App() {
       {/* <ComponentsFolder /> */}
 
       {/* Routing */}
-      <AppRoutesFile />
+      {/* <AppRoutesFile /> */}
+
+      {/* React Practice */}
+      {/* <SetState /> */}
+      {/* <Conditonal themeMode={false} /> */}
+      {/* <UpdatingObjectState /> */}
+      {/* <FormWithSingleState /> */}
+      {/* <PrimitiveAndNonPrimitive /> */}
+      {/* <LoadingData /> */}
+      {/* <MountingAndUnmounting /> */}
+      {/* <CustomHooks /> */}
+      {/* <CleaningUpFunctions /> */}
+      <DataFetching />
     </>
   );
 }
