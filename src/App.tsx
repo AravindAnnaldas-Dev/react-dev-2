@@ -13,6 +13,7 @@ import FormWithSingleState from './reactPractice/FormWithSingleState';
 import LoadingData from './reactPractice/LoadingData';
 import MountingAndUnmounting from './reactPractice/MountingAndUnmounting';
 import PrimitiveAndNonPrimitive from './reactPractice/PrimitiveAndNonPrimitive';
+import ReactNode from './reactPractice/ReactNode';
 import SetState from './reactPractice/SetState';
 import UpdatingObjectState from './reactPractice/UpdatingObjectState';
 
@@ -46,7 +47,8 @@ function App() {
       {/* <MountingAndUnmounting /> */}
       {/* <CustomHooks /> */}
       {/* <CleaningUpFunctions /> */}
-      <DataFetching />
+      {/* <DataFetching /> */}
+      <ReactNode>Hello World!</ReactNode>
     </>
   );
 }
