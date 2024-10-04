@@ -2,6 +2,7 @@ import './App.css';
 import AppRoutesFile from './AppRoutes/AppRoutesFile';
 import ParentFile from './ParentToChildProps/ParentFile';
 import ComponentsFolder from './StateLifting/ComponentsFolder';
+import UsingHooks from './UsingHooks';
 import ContextHook, { CreatingProvide } from './context/Context';
 import UsingContextFile from './context/UsingContextFile';
 import Home from './pages/Home';
@@ -19,7 +20,7 @@ import UpdatingObjectState from './reactPractice/UpdatingObjectState';
 
 function App() {
   // useContext
-  const { themeMode } = ContextHook();
+  // const { themeMode } = ContextHook();
 
   return (
     // <CreatingProvide value={{ themeMode }}>
@@ -48,7 +49,8 @@ function App() {
       {/* <CustomHooks /> */}
       {/* <CleaningUpFunctions /> */}
       {/* <DataFetching /> */}
-      <ReactNode>Hello World!</ReactNode>
+      {/* <ReactNode>Hello World!</ReactNode> */}
+      <UsingHooks />
     </>
   );
 }
